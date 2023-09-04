@@ -10,8 +10,7 @@ This GitHub repository offers a collection of custom-built Python functions desi
 
 ## Retrieve and store workflow runs
 
-**[workflow-runs.py](https://github.com/andreareosa/AWS-Monitoring/blob/main/workflow-runs.py)**    
-This Python script comprises three essential functions, each designed to streamline various aspects of AWS Glue workflow monitoring:
+**[workflow-runs.py](https://github.com/andreareosa/AWS-Monitoring/blob/main/workflow-runs.py)** This Python script comprises three essential functions, each designed to streamline various aspects of AWS Glue workflow monitoring:
 
 * get_workflow_runs: With 'get_workflow_runs,' you can retrieve relevant details about the latest execution of an AWS Glue workflow. This function offers insights into start and end times, runtime duration, workflow status (success or failure), and provides a breakdown of any failed jobs within the workflow.
 
