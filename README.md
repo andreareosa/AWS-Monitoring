@@ -7,6 +7,7 @@ This GitHub repository offers a collection of custom-built Python functions desi
 ## Table of Contents
 
 - [Retrieve and store workflow runs](#retrieve-and-store-workflow-runs)
+- [Send workflow run metrics from AWS to MS Teams](#send-workflow-run-metrics-from-aws-to-ms-teams)
 
 ## Retrieve and store workflow runs
 
