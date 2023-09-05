@@ -18,6 +18,8 @@ This GitHub repository offers a collection of custom-built Python functions desi
 
 * store_workflow_metrics: This function simplifies the process of storing AWS Glue workflow metrics by saving them as a JSON file on an AWS S3 bucket. It generates a unique file name, timestamped for your convenience, converts the metrics into JSON format, and efficiently uploads the data to your specified S3 location. Should metrics be available, this function executes the storage process and provides comprehensive details; in cases where no metrics are present, it gracefully communicates the absence.
 
+## Send workflow run metrics from AWS to MS Teams
+
 **[postTeams.py](https://github.com/andreareosa/AWS-Monitoring/blob/main/postTeams.py)** This function was created for AWS ETL monitoring system and it sends the summary from the last workflow execution from AWS Glue when ingesting data to AWS.
 
 * The function builds the message payload to be sent to MS Teams using metrics from get_workflow_metrics function and the content of this payload depends on the workflow's status, whether it succeeded or failed. The notifications are sent as message cards and the JSON format used is described here.
